@@ -3,8 +3,12 @@ require("config")
 require("framework.init")
 require("framework.client.init")
 
+require("battle.BattlePosition")
 require("battle.BattleAction")
-
+require("battle.Action")
+require("battle.QueueUtil")
+require("battle.BattleLogic")
+require("battle.BattleUnit")
 
 -- define global module
 game = {}
